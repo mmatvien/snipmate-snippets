@@ -12,8 +12,18 @@ snippet fun
 # Anonymous Function
 snippet f
 	function (${1}) {
-		${3}
-	}${2:;}
+		${2}
+	}
+# Anonymous function with comma
+snippet f,
+	function (${1}) {
+		${2}
+	},
+# Anonymous function with semicolon
+snippet f;
+	function (${1}) {
+		${2}
+	};
 # Immediate function
 snippet (f
 	(function (${1}) {
